@@ -1,4 +1,4 @@
-#Tic Tak Tok
+#Tic Tac Tok
 checkplaces = [i for i in range(1,11)]
 player1 = True
 winner = -1
@@ -61,7 +61,7 @@ while winner < 0 :
         checkplaces[selection-1] = player2sign
         checkselection(selection, checkplaces)
         if checkwinner(player2sign, checkplaces):
-            print("Player 1 Wins!")
+            print("Player 2 Wins!")
             break
 
     player1 = not player1
